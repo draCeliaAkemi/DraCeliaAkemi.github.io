@@ -6,7 +6,7 @@ export default function Contato() {
             <h2>Onde estamos</h2>
             <div className="d-flex justify-content-around align-items-center">
                 <iframe
-                src="https://www.google.com/maps?q=Av.+Jo%C3%A3o+Dias,+1946,+S%C3%A3o+Paulo+-+SP&output=embed"
+                src="https://www.google.com/maps?q=Av.+Cupecê,+2899,+São+Paulo+-+SP&output=embed"
                 width="400"
                 height="400"
                 style={{ border: 0 }}
@@ -16,7 +16,7 @@ export default function Contato() {
 
                 <div className="border p-3 border-roxo-claro">
                      <address>
-                        Av. João Dias, 1946<br />
+                        Avenida Cupecê, 2899 - Sala 04<br />
                         São Paulo - SP
                     </address>
                     <p>Email - draceliaodonto@gmail.com</p>
