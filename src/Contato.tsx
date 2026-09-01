@@ -4,7 +4,7 @@ export default function Contato() {
     return (
         <section className="container ">
             <h2>Onde estamos</h2>
-            <div className="d-flex justify-content-around align-items-center">
+            <div className="d-flex flex-wrap justify-content-around align-items-center">
                 <iframe
                 src="https://www.google.com/maps?q=Av.+Cupecê,+2899,+São+Paulo+-+SP&output=embed"
                 width="400"
