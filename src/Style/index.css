@@ -1,0 +1,93 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+.btn-clinica {
+    background-color: #23679D;
+    color: white;
+    border: none;
+}
+.btn-clinica:hover {
+    background-color:#307CB8;
+    color: white;
+}
+
+.border-roxo-claro
+{
+    border: #E8B5F7 5px solid;
+}
+
+.vw-1
+{
+    font-size: 1vw;
+}
+.vw-1-5
+{
+    font-size: 1.5vw;
+}
+.vw-2
+{
+    font-size: 2vw;
+}
+.vw-2-5
+{
+    font-size: 2.5vw;
+}
+
+.azul {
+    color: #307CB8;
+}
+
+.bg-azul {
+    background-color: #307CB8;
+}
+
+.azul-escuro {
+    color: #23679D;
+}
+
+.bg-azul-escuro {
+    background-color: #23679D;
+}
+
+.roxo {
+    color: #CE31F4;
+}
+
+.bg-roxo {
+    background-color: #CE31F4;
+}
+
+.roxo-claro {
+    color: #E8B5F7;
+}
+
+.bg-roxo-claro {
+    background-color: #E8B5F7;
+}
+
+.branco {
+    color: #FFFFFF;
+}
+
+.bg-branco {
+    background-color: #FFFFFF;
+}
+
+.cinza {
+    color: #F5F7FA;
+}
+
+.bg-cinza {
+    background-color: #F5F7FA;
+}
+
+.texto {
+    color: #263238;
+}
+
+.bg-texto {
+    background-color: #263238;
+}
