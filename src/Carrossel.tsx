@@ -1,10 +1,14 @@
 import { useState } from "react";
 
+import imagem1 from "./assets/imagem1.jpeg";
+import imagem2 from "./assets/imagem2.jpeg";
+import imagem3 from "./assets/imagem3.jpeg";
+
 export default function Carrossel() {
     const imagens = [
-        "src/assets/imagem1.jpeg",
-        "src/assets/imagem2.jpeg",
-        "src/assets/imagem3.jpeg"
+        imagem1,
+        imagem2,
+        imagem3
     ];
 
     const [atual, setAtual] = useState(0);
@@ -30,7 +34,6 @@ export default function Carrossel() {
                 }}
             />
 
-            {/* Seta esquerda */}
             <button
                 onClick={anterior}
                 className="btn btn-light position-absolute top-50 start-0 translate-middle-y ms-2 rounded-circle shadow"
@@ -38,7 +41,6 @@ export default function Carrossel() {
                 ←
             </button>
 
-            {/* Seta direita */}
             <button
                 onClick={proximo}
                 className="btn btn-light position-absolute top-50 end-0 translate-middle-y me-2 rounded-circle shadow"
