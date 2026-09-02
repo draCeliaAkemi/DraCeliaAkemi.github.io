@@ -4,6 +4,11 @@
     box-sizing: border-box;
 }
 
+/* Celular */
+@media (max-width: 576px) {
+    
+}
+
 .btn-clinica {
     background-color: #23679D;
     color: white;
